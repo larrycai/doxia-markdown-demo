@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.larrycai.doxia-markdown</groupId>
+  <artifactId>doxia-markdown.sample</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>sample for doxia markdown format in maven site</name>
+  <url>https://github.com/larrycai/doxia-markdown-demo</url>
+  <build>
+    <plugins>
+
+                        <plugin>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-site-plugin</artifactId>
+                                <version>2.2</version>
+
+                                <dependencies>
+                                        <dependency>
+                                                <groupId>org.apache.maven.doxia</groupId>
+                                                <artifactId>doxia-module-markdown</artifactId>
+                                                <version>1.1.4</version>
+                                        </dependency>
+                                </dependencies>
+                                <configuration>
+                                        <inputEncoding>UTF-8</inputEncoding>
+                                        <outputEncoding>UTF-8</outputEncoding>
+                                </configuration>
+                        </plugin>
+              
+    </plugins>
+  </build>
+
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Maven">
+  <body>
+    <links>
+      <item name="Apache" href="http://www.apache.org/" />
+      <item name="Maven 2" href="http://maven.apache.org/"/>
+	  <item name="doxia-markdown" href="http://code.google.com/p/doxia-module-markdown/"/>
+    </links>
+
+    <menu name="About Doxia-markdown">
+      <item name="Introduction" href="introduction.html"/>
+      <item name="Usage" href="usage.html"/>
+      <item name="Design" href="design.html" />
+    </menu>
+
+    <menu ref="reports"/>
+  </body>
+</project>
