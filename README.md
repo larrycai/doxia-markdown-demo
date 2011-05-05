@@ -10,7 +10,7 @@ download from [doxia-module-markdown][doxiamarkdown] first and install locally, 
 
 It should work as normal mvn site
 
-Then you can check the <code>src/site/site.xml</code> and files under <code>src.site/markdown</code>
+Then you can check the <code>src/site/site.xml</code> and files under <code>src/site/markdown</code>
 
 ## Issues
 
